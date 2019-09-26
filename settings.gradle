@@ -1,0 +1,3 @@
+rootProject.name = 'JavaCourseLabs'
+include 'lab0_conditionals'
+

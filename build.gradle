@@ -1,0 +1,19 @@
+allprojects {
+    apply plugin: 'java'
+
+    group 'be.doji.course'
+    version '1.0-SNAPSHOT'
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+        testCompile group: 'org.assertj', name: 'assertj-core', version: '1.0.0'
+    }
+}
+
+
